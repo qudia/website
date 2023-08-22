@@ -1,0 +1,39 @@
+#appIcon, #appTitle, #appstoreIcon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 32px;
+}
+
+#appTitle {
+    margin-bottom: 8px;
+}
+
+.appScreenshot {
+    margin: 20px 10px 20px 20px;
+}
+
+.appScreenshotRow {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 840px) {
+    #appIcon, #appTitle {
+        padding: 8px 20px;
+    }
+
+    #appIcon {
+        margin-top: 12px;
+        width: 80px;
+    }
+
+    #appstoreIcon {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .appScreenshot {
+        margin: 20px -10px 20px 0px;
+    }
+}

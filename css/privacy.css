@@ -1,0 +1,13 @@
+#privacyText {
+    text-align: left;
+    max-width: 1066px;
+    margin: auto;
+}
+
+#privacyText a {
+    text-decoration: underline;
+}
+
+#bottomMenu {
+    text-align: center;
+}

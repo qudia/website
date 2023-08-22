@@ -1,0 +1,126 @@
+body {
+    padding-top: 22px;
+}
+
+#topMenu {
+    padding-left: 10px;
+}
+
+#mainLogoAndTitle {
+    padding-bottom: 20px;
+}
+
+#mainLogo, #mainTitle {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 0px;
+}
+
+#mainLogo {
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+#apps {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.app {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 40px;
+}
+
+.appIcon {
+    margin: 24px auto auto auto;
+    width: 80px;
+    display: block;
+}
+
+.appDescriptionContainer {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appTitle {
+    margin: auto;
+    padding: 20px 0;
+    width: 240px;
+    line-height: normal;
+}
+
+.appDescription {
+	line-height: 1.5em;
+}
+
+.appScreenshot {
+    max-width: 160px;
+    margin-top: 28px;
+    margin-left: 12px;
+    padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 840px) {
+    body {
+        padding-bottom: 24px;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    #mainLogo {
+        padding-right: 0px;
+        margin-bottom: -20px;
+    }
+
+    #mainLogoAndTitle {
+        margin-bottom: -50px;
+    }
+
+    #mainTitle, .appTitle {
+        text-align: center;
+        margin-right: 0px;
+        width: auto;
+    }
+
+    #mainTitle, .appScreenshot {
+        display: inline;
+        padding: 0px;
+    }
+
+    .appDescriptionContainer {
+        height: 40px;
+    }
+
+    .appIcon {
+        margin-top: 72px;
+        width: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 627px) {
+    .appDescription {
+        margin-top: -4px;
+        margin-bottom: -6px;
+        height: auto;
+    }
+
+    .appDescriptionContainer {
+        display: inline-block;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .app {
+        margin: auto;
+    }
+}

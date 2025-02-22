@@ -1,5 +1,5 @@
 <html>
-<head>
+  <head>
     <!-- HTML Page Specific -->
     <meta charset="utf-8" />
 
@@ -12,136 +12,376 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/index.css" />
 
     <!-- Favicon -->
-	<link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="manifest" href="/favicon/manifest.json">
-</head>
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/favicon/favicon-96x96.png"
+    />
+    <link rel="manifest" href="/favicon/manifest.json" />
 
-<body>
+    <!-- Preload Main App Pages -->
+    <link rel="preload" href="/watchfunk/index.html" as="document" />
+    <link rel="preload" href="/watchtoy/index.html" as="document" />
+    <link rel="preload" href="/watchslime/index.html" as="document" />
+    <link rel="preload" href="/balloonsbegone/index.html" as="document" />
+    <link rel="preload" href="/zitavenger/index.html" as="document" />
+    <link rel="preload" href="/commasurf/index.html" as="document" />
+
+    <!-- Preload Images -->
+		 
+    <link
+      rel="preload"
+      href="images/appstore.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/watchfunk/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchfunk/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchfunk/watch3.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/watchtoy/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchtoy/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchtoy/watch3.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchtoy/watch4.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/watchslime/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchslime/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchslime/watch3.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/watchslime/watch4.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/balloonsbegone/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/balloonsbegone/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/balloonsbegone/watch3.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/zitavenger/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/zitavenger/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <link
+      rel="preload"
+      href="images/commasurf/watch1.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/commasurf/watch2.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/commasurf/watch3.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="images/commasurf/watch4.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <!-- Preload App Icons -->
+    <link
+      rel="preload"
+      href="images/watchfunk/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preload"
+      href="images/watchtoy/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preload"
+      href="images/watchslime/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preload"
+      href="images/balloonsbegone/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preload"
+      href="images/zitavenger/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link
+      rel="preload"
+      href="images/commasurf/appicon.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+  </head>
+
+  <body>
     <div id="topMenuContainer">
-        <div id="topMenu">
-            
-        </div>
+      <div id="topMenu"></div>
     </div>
 
     <div id="mainLogoAndTitle">
-        <img id="mainLogo" src="images/logo_with_title.svg" width=120>
+      <img id="mainLogo" src="images/logo_with_title.svg" width="120" />
     </div>
 
-	<div id="apps">
-		<a href="/watchfunk">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/watchfunk/appicon.svg">
-	
-					<h2 class="appTitle">WatchFunk</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Piano, Drums & More</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/watchfunk/watch1.webp">
-			</div>
-		</a>
-	
-		<a href="/watchtoy">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/watchtoy/appicon.svg">
-	
-					<h2 class="appTitle">WatchToy</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Relieve Your Stress With Fidget Toys</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/watchtoy/watch3.webp">
-			</div>
-		</a>
-	
-		<a href="/watchslime">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/watchslime/appicon.svg">
-	
-					<h2 class="appTitle">WatchSlime</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Play With Slime Anywhere</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/watchslime/watch3.webp">
-			</div>
-		</a>
-	
-		<a href="/balloonsbegone">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/balloonsbegone/appicon.svg">
-	
-					<h2 class="appTitle">Balloons Be Gone</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Addicting Like Bubble Wrap!</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/balloonsbegone/watch1.webp">
-			</div>
-		</a>
-	
-		<a href="/zitavenger">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/zitavenger/appicon.svg">
-	
-					<h2 class="appTitle">ZitAvenger</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Pop Zits With Haptic Feedback</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/zitavenger/watch1.webp">
-			</div>
-		</a>
-	
-		<a href="/commasurf">
-			<div class="app">
-				<div class="appIconAndTitle">
-					<img class="appIcon" src="images/commasurf/appicon.svg">
-	
-					<h2 class="appTitle">CommaSurf</h2>
-	
-					<div class="appDescriptionContainer">
-						<h5 class="appDescription">Surf the Web On Your Watch</h5>
-					</div>
-				</div>
-	
-				<img class="appScreenshot" src="images/commasurf/watch1.webp">
-			</div>
-		</a>
-	</div>    
-</body>
+    <div id="apps">
+      <a href="/watchfunk">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/watchfunk/appicon.svg" />
+
+            <h2 class="appTitle">WatchFunk</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">Piano, Drums & More</h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/watchfunk/watch1.webp" />
+        </div>
+      </a>
+
+      <a href="/watchtoy">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/watchtoy/appicon.svg" />
+
+            <h2 class="appTitle">WatchToy</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">
+                Relieve Your Stress With Fidget Toys
+              </h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/watchtoy/watch3.webp" />
+        </div>
+      </a>
+
+      <a href="/watchslime">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/watchslime/appicon.svg" />
+
+            <h2 class="appTitle">WatchSlime</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">Play With Slime Anywhere</h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/watchslime/watch3.webp" />
+        </div>
+      </a>
+
+      <a href="/balloonsbegone">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/balloonsbegone/appicon.svg" />
+
+            <h2 class="appTitle">Balloons Be Gone</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">Addicting Like Bubble Wrap!</h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/balloonsbegone/watch1.webp" />
+        </div>
+      </a>
+
+      <a href="/zitavenger">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/zitavenger/appicon.svg" />
+
+            <h2 class="appTitle">ZitAvenger</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">Pop Zits With Haptic Feedback</h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/zitavenger/watch1.webp" />
+        </div>
+      </a>
+
+      <a href="/commasurf">
+        <div class="app">
+          <div class="appIconAndTitle">
+            <img class="appIcon" src="images/commasurf/appicon.svg" />
+
+            <h2 class="appTitle">CommaSurf</h2>
+
+            <div class="appDescriptionContainer">
+              <h5 class="appDescription">Surf the Web On Your Watch</h5>
+            </div>
+          </div>
+
+          <img class="appScreenshot" src="images/commasurf/watch1.webp" />
+        </div>
+      </a>
+    </div>
+  </body>
 </html>

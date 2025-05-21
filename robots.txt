@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: https://qudia.io/sitemap.xml
+Sitemap: https://qudia.org/sitemap.xml

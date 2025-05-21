@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://qudia.io/</loc>
+        <loc>https://qudia.org/</loc>
     </url>
     
     <url>
-        <loc>https://qudia.io/watchfunk</loc>
+        <loc>https://qudia.org/watchfunk</loc>
     </url>
     <url>
-        <loc>https://qudia.io/watchfunk/support</loc>
+        <loc>https://qudia.org/watchfunk/support</loc>
     </url>
     <url>
-        <loc>https://qudia.io/watchfunk/privacy</loc>
-    </url>
-
-    <url>
-        <loc>https://qudia.io/watchtoy</loc>
-    </url>
-    <url>
-        <loc>https://qudia.io/watchtoy/support</loc>
-    </url>
-    <url>
-        <loc>https://qudia.io/watchtoy/privacy</loc>
+        <loc>https://qudia.org/watchfunk/privacy</loc>
     </url>
 
     <url>
-        <loc>https://qudia.io/watchslime</loc>
+        <loc>https://qudia.org/watchtoy</loc>
     </url>
     <url>
-        <loc>https://qudia.io/watchslime/support</loc>
+        <loc>https://qudia.org/watchtoy/support</loc>
     </url>
     <url>
-        <loc>https://qudia.io/watchslime/privacy</loc>
-    </url>
-
-    <url>
-        <loc>https://qudia.io/balloonsbegone</loc>
-    </url>
-    <url>
-        <loc>https://qudia.io/balloonsbegone/support</loc>
-    </url>
-    <url>
-        <loc>https://qudia.io/balloonsbegone/privacy</loc>
+        <loc>https://qudia.org/watchtoy/privacy</loc>
     </url>
 
     <url>
-        <loc>https://qudia.io/zitavenger</loc>
+        <loc>https://qudia.org/watchslime</loc>
     </url>
     <url>
-        <loc>https://qudia.io/zitavenger/support</loc>
+        <loc>https://qudia.org/watchslime/support</loc>
     </url>
     <url>
-        <loc>https://qudia.io/zitavenger/privacy</loc>
+        <loc>https://qudia.org/watchslime/privacy</loc>
     </url>
 
     <url>
-        <loc>https://qudia.io/commasurf</loc>
+        <loc>https://qudia.org/balloonsbegone</loc>
     </url>
     <url>
-        <loc>https://qudia.io/commasurf/support</loc>
+        <loc>https://qudia.org/balloonsbegone/support</loc>
     </url>
     <url>
-        <loc>https://qudia.io/commasurf/privacy</loc>
+        <loc>https://qudia.org/balloonsbegone/privacy</loc>
+    </url>
+
+    <url>
+        <loc>https://qudia.org/zitavenger</loc>
+    </url>
+    <url>
+        <loc>https://qudia.org/zitavenger/support</loc>
+    </url>
+    <url>
+        <loc>https://qudia.org/zitavenger/privacy</loc>
+    </url>
+
+    <url>
+        <loc>https://qudia.org/commasurf</loc>
+    </url>
+    <url>
+        <loc>https://qudia.org/commasurf/support</loc>
+    </url>
+    <url>
+        <loc>https://qudia.org/commasurf/privacy</loc>
     </url>
 </urlset>
